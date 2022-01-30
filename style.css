@@ -26,6 +26,9 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+.container {
+  max-width: 90%;
+}
 
 .desc-text {
   font-size: 18px;
@@ -86,7 +89,7 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 577px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 48px;
     margin: 0 10px;
@@ -109,5 +112,20 @@ h3 {
     text-align: center;
     margin: 0 90px;
   }
+  .contact-title,
+  .email-link {
+    font-size: 28px;
+  }
 }
-
+@media (min-width: 575px) and (max-width: 991px) {
+  h1 {
+    font-size: 72px;
+  }
+  .intro {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+}
